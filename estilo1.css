@@ -7,7 +7,7 @@
 }
 
 .base {
-    display: flex;
+    display: flex; 
     margin-bottom: 15px;
     background-color: #d0d3d4;
     border-radius: 4px;
@@ -41,21 +41,29 @@ h1 {
 }
 
 .container2 {
-    justify-content: flex-end;    
+    justify-content: flex-end;
 }
 
 .container3 {
-    justify-content: center;   
+    justify-content: center;
 }
 
 .container4 {
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 .container5 {
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
-.container6 {
-    justify-content: space-evenly;    
+.container6 { 
+    justify-content: space-evenly;
+}
+
+/* Exercício B */
+.container-exercicioB {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 300px;   /* mais larga que os itens (100px), sobra espaço cinza à direita */
+    height: 400px;  /* 4 itens de 100px empilhados, sem sobra vertical */
 }
